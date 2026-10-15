@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>widowx200_kinematics</name>
+  <version>1.0.0</version>
+  <description>Cinematique, planification de trajectoire et analyse d'espace de travail pour le robot WidowX-200 (4 DDL, servomoteurs Dynamixel XL430)</description>
+  <maintainer email="hindhindo067@gmail.com">Hind Jabrane</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>widowx200_interfaces</depend>
+
+  <exec_depend>python3-numpy</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

@@ -1,0 +1,8 @@
+geometry_msgs/Pose target_pose
+float64[] seed_joints
+float64 tolerance
+---
+bool success
+float64[] joint_positions
+float64 position_error
+int32 iterations

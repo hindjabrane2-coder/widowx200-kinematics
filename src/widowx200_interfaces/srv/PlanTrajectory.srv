@@ -1,0 +1,14 @@
+string mode
+float64[] start_joints
+float64[] goal_joints
+geometry_msgs/Pose goal_pose
+float64 max_velocity
+float64 max_acceleration
+float64 max_jerk
+string profile_type
+int32 num_points
+---
+bool success
+widowx200_interfaces/TrajectoryPoint[] points
+float64 duration
+string message

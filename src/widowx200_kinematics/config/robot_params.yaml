@@ -1,0 +1,20 @@
+kinematics_server:
+  ros__parameters:
+    ik_max_iterations: 200
+    ik_tolerance: 0.001
+    ik_lambda_init: 0.01
+
+trajectory_planner:
+  ros__parameters:
+    default_joint_velocity: 1.0
+    default_joint_acceleration: 2.0
+    default_cartesian_velocity: 50.0
+    default_cartesian_acceleration: 200.0
+    default_num_points: 200
+
+workspace_analyzer:
+  ros__parameters:
+    monte_carlo_samples: 50000
+    dexterity_resolution: 100
+    dexterity_z_height: 200.0
+    output_directory: /tmp/widowx200_workspace
